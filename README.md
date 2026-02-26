@@ -11,6 +11,9 @@ As a bonus feature, there will be an option added to ALL widgets to hide the hea
 - **In-UI Styling**: Change the button's appearance (colors, padding, etc.) directly from the widget configuration using CSS.
 - **No Refresh by Default**: Optimized for static links to prevent unnecessary dashboard reloading.
 
+## Usage
+Check the "Hide header" box in the widget configuration to remove the title bar when viewing the dashboard.
+
 ## Installation Instructions
 
 ### 1. Upload the Module
