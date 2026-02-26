@@ -4,7 +4,7 @@
     "type": "widget",
     "name": "Custom HTML Button",
     "namespace": "CustomHtmlWidget",
-    "version": "1.5",
+    "version": "1.0",
     "author": "Uber1337NL@GitHub",
     "actions": {
         "widget.custom_html_widget.view": {
