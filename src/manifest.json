@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2.0,
+    "id": "custom_html_widget",
+    "type": "widget",
+    "name": "Custom HTML Button",
+    "namespace": "CustomHtmlWidget",
+    "version": "1.5",
+    "author": "Uber1337NL@GitHub",
+    "actions": {
+        "widget.custom_html_widget.view": {
+            "class": "WidgetView"
+        }
+    },
+    "widget": {
+        "js_class": "WidgetCustomHtmlWidget",
+        "defaults": {
+            "rf_rate": 0
+        }
+    },
+    "assets": {
+        "js": ["class.widget.js"],
+        "css": ["widget.css"]
+    }
+}

@@ -1,0 +1,30 @@
+### GitHub related
+ignore.github/*
+.github/
+
+#### Local development related
+.env
+.phpunit*
+coverage-report/
+rector.php
+
+#### Security: avoid leaking credentials
+src/config.php
+
+##### Composer
+composer.*
+/vendor/
+
+##### Windows
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+##### MacOS
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+src/sample-index.html
