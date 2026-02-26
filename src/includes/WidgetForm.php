@@ -7,7 +7,7 @@ class WidgetForm extends CWidgetForm {
     public function addFields(): self {
         return $this
             ->addField((new CWidgetFieldTextBox('button_text', _('Button Text')))->setDefault('Click here for the wallboard'))
-            ->addField((new CWidgetFieldTextBox('button_url', _('Button URL')))->setDefault('https://example.com'))
-            ->addField((new CWidgetFieldTextArea('custom_style', _('Custom CSS (Optional)')))->setDefault('background-color: #0275d8; color: white; padding: 10px 20px; border: none; border-radius: 4px; font-size: 16px; text-decoration: none; display: inline-block;'));
+            ->addField((new CWidgetFieldTextBox('button_url', _('Button URL')))->setDefault('https://zabbix.example.com/wallboard'))
+            ->addField((new CWidgetFieldTextArea('custom_style', _('Custom CSS (Optional)')))->setDefault('background-color: #2B2B2B; color: white; padding: 10px 20px; border: none; border-radius: 4px; font-size: 16px; text-decoration: none; display: inline-block;'));
     }
 }
