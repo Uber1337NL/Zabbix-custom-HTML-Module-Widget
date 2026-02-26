@@ -16,7 +16,7 @@ This Zabbix module adds a customizable button widget to your dashboards. It is d
 1. Locate your Zabbix frontend directory (usually `/usr/share/zabbix/ui/` or `/var/www/html/zabbix/`).
 2. Navigate to the `modules/` directory.
 3. Create a new folder named `custom_html_widget`.
-4. Extract the contents of `custom_html_widget.zip` into this folder.
+4. Extract the contents of `custom_html_widget.zip` src folder into this folder. (ONLY THE SRC FOLDER!)
    - The structure should look like: `modules/custom_html_widget/manifest.json`, etc.
 
 ### 2. Set Permissions
