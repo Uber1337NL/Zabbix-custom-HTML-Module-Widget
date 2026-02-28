@@ -2,6 +2,8 @@
 
 This Zabbix module adds a customizable button widget to your dashboards. It is designed to provide a clean, styled link to external resources like wallboards, documentation, or external tools.
 
+![Image](https://github.com/Uber1337NL/Zabbix-Module-Custom-HTML-Widget/blob/main/img/configure-widget.png)
+
 ![Image](https://github.com/Uber1337NL/Zabbix-custom-HTML-Module-Widget/blob/main/img/In-action.png)
 
 ## Features
